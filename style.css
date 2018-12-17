@@ -1,0 +1,394 @@
+body{ margin:0;
+background-color:#CCCCCC;
+}
+#fixed{ width:60px;
+height:200px;
+float:left;
+
+margin-top:250px;
+position:fixed;
+}
+.f{ width:50px;
+height:50px;
+float:left;
+
+margin:5px;
+
+ }
+#fixed2{ width:60px;
+height:200px;
+float:left;
+
+margin-top:250px;
+position:fixed;
+right:0%;
+}
+#container{ width:1024px;
+height:auto;
+margin:0 auto;
+}
+#header{ width:1024px;
+height:150px;
+background-color:#FFF;
+float:left;
+}
+#header_left{ width:300px;
+height:150px;
+
+float:left;
+}
+#header_right{ width:724px;
+height:150px;
+
+float:left;
+}
+#header_right_top{ width:700px;
+height:50px;
+padding-right:14px;
+
+float:left;
+text-align:right;
+}
+
+#header_right_bottom{ width:724px;
+height:100px;
+
+float:left;
+background-image:url(images/contact.jpg);
+}
+#button_panel{ width:1024px;
+height:52px;
+background-color:#33CC66;
+float:left;
+}
+.button a{ width:130px;
+height:50px;
+background-color:#0099FF;
+float:left;
+color:#FFFFFF;
+text-align:center;
+line-height:50px;
+text-decoration:none;
+border:solid 1px #FFFFFF;
+}
+.button a:hover{ width:130px;
+height:50px;
+background-color:#FFFFFF;
+float:left;
+color:#000;
+text-align:center;
+line-height:50px;
+text-decoration:underline;
+border:solid 1px #FFFFFF;
+}
+#baneer{ width:1004px;
+height:350px;
+background-color:#FFF;
+float:left;
+border:solid 10px #0099FF;
+margin-top:7px;
+margin-bottom:7px;
+}
+#panel{ width:1024px;
+height:600px;
+background-color:#652389;
+float:left;
+}
+#panel_left{ width:694px;
+height:600px;
+background-color:#FFF;
+float:left;
+color:#000;
+padding:15px 15px 0 15px;
+
+}
+#panel_right{ width:300px;
+height:600px;
+
+float:left;
+}
+#panel_right_top{ width:300px;
+height:50px;
+background-color:#0099FF;
+float:left;
+text-align:center;
+font-size:24px;
+line-height:50px;
+color:#FFFFFF;
+}
+#panel_right_mid{ width:290px;
+height:180px;
+background-color:#FFF;
+float:left;
+padding-left:10px;
+padding-top:20px;
+
+}
+#panel_right_bottom{ width:300px;
+height:350px;
+background-color:#562314;
+float:left;
+}
+#footer{ width:1024px;
+height:200px;
+background-color:#0099FF;
+float:left;
+}
+#footer_left{ width:341px;
+height:200px;
+background-color:#0099FF;
+float:left;
+}
+#footer_left_top{ width:341px;
+height:50px;
+background-color:#0099FF;
+float:left;
+color:#fff;
+text-align:center;
+line-height:50px;
+font-size:24px;
+}
+#footer_left_bottom{ width:341px;
+height:150px;
+background-color:#fff;
+float:left;
+color:#0099FF;
+text-align:center;
+}
+#footer_left_bottom ul li{ list-style-type:none;
+
+}
+#footer_left_bottom ul li a{ color:#CC0066;
+text-decoration:none;
+
+}
+#footer_left_bottom ul li a:hover{ color:#0099CC;
+text-decoration:none;
+}
+
+#footer_mid{ width:342px;
+height:200px;
+background-color:#0099FF;
+float:left;
+}
+#footer_mid_top{ width:342px;
+height:50px;
+background-color:#0099FF;
+float:left;
+color:#fff;
+text-align:center;
+line-height:50px;
+font-size:24px;
+}
+#footer_mid_bottom{ width:342px;
+height:150px;
+background-color:#fff;
+float:left;
+color:#0099FF;
+text-align:center;
+}
+#footer_mid_bottom ul li{ list-style-type:none;
+
+}
+#footer_mid_bottom ul li a{ color:#CC0066;
+text-decoration:none;
+
+}
+#footer_mid_bottom ul li a:hover{ color:#0099CC;
+text-decoration:none;
+}
+
+#footer_right{ width:341px;
+height:200px;
+background-color:#0099FF;
+float:left;
+}
+#footer_right_top{ width:341px;
+height:50px;
+background-color:#0099FF;
+float:left;
+color:#fff;
+text-align:center;
+line-height:50px;
+font-size:24px;
+}
+#footer_right_bottom{ width:341px;
+height:150px;
+background-color:#fff;
+float:left;
+color:#0099FF;
+text-align:center;
+}
+#footer_right_bottom ul li{ list-style-type:none;
+
+}
+#footer_right_bottom ul li a{ color:#CC0066;
+text-decoration:none;
+
+}
+#footer_right_bottom ul li a:hover{ color:#0099CC;
+text-decoration:none;
+}
+
+#copy{ width:1024px;
+height:50px;
+background-color:#0099FF;
+float:left;
+text-align:center;
+color:#FFF;
+line-height:50px;
+}
+
+
+
+
+#about{ width:1024px;
+height:600px;
+background-color:#CC3300;
+float:left;
+}
+#about_top{ width:1024px;
+height:400px;
+background-color:#fff;
+float:left;
+}
+.fg{ float:left;
+padding-left:10px;
+padding-right:10px;
+
+}
+
+#about_bottom{ width:1000px;
+height:200px;
+background-color:#fff;
+float:left;
+padding:12px 12px 0 12px;
+}
+
+
+
+
+#contact{ width:1024px;
+height:600px;
+background-color:#456231;
+float:left;
+}
+#contact_left{ width:300px;
+height:600px;
+background-color:#456231;
+float:left;
+}
+#contact_left_top{ width:300px;
+height:100px;
+background-color:#0099FF;
+float:left;
+color:#FFFFFF;
+line-height:100px;
+font-size:36px;
+}
+#contact_left_mid{ width:300px;
+height:400px;
+background-color:#fff;
+float:left;
+}
+#contact_left_bottom{ width:288px;
+height:100px;
+background-color:#fff;
+float:left;
+color:#0099FF;
+font-size:28px;
+padding:12px;
+}
+#contact_right{ width:724px;
+height:600px;
+background-color:#456231;
+float:left;
+}
+#contact_right_top{ width:724px;
+height:50px;
+background-color:#fff;
+float:left;
+color:#0099FF;
+line-height:50px;
+font-size:24px;
+}
+#contact_right_bottom{ width:724px;
+height:550px;
+background-color:#00FF99;
+float:left;
+}
+
+
+
+
+
+#services{ width:1024px;
+height:600px;
+background-color:#891234;
+float:left;
+}
+
+#services_c1{ width:1024px;
+height:200px;
+background-color:#fff;
+float:left;
+}
+#services_c1_left{ width:700px;
+height:200px;
+background-color:#fff;
+float:left;
+padding:12px 12px 0 12px;
+color:#000000;
+}
+#services_c1_right{ width:280px;
+height:200px;
+background-color:#fff;
+float:left;
+padding-left:20px;
+}
+
+#services_c2{ width:1024px;
+height:200px;
+background-color:#fff;
+float:left;
+}
+#services_c2_left{ width:700px;
+height:200px;
+background-color:#fff;
+float:left;
+padding:12px 12px 0 12px;
+color:#000000;
+}
+#services_c2_right{ width:280px;
+height:200px;
+background-color:#fff;
+float:left;
+padding-left:20px;
+}
+#services_c3{ width:1024px;
+height:200px;
+background-color:#fff;
+float:left;
+}
+#services_c3_left{ width:700px;
+height:200px;
+background-color:#fff;
+float:left;
+padding:12px 12px 0 12px;
+color:#000000;
+}
+#services_c3_right{ width:280px;
+height:200px;
+background-color:#fff;
+float:left;
+padding-left:20px;
+}
+
+#feedback{ width:1024px;
+height:600px;
+background-color:#651278;
+float:left;
+}
+
+
+
